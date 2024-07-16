@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<Spinner
+    android:id="@+id/recipeSpinner"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"/>
+
+<Button
+    android:id="@+id/showRecipeButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/recipeSpinner"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:text="Show Recipe"/>
+
+<TextView
+    android:id="@+id/recipeTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/showRecipeButton"
+    android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true"
+    android:textSize="18sp"/>
+</RelativeLayout>
